@@ -5,6 +5,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .main-container {
     height: 100vh;
 }
@@ -31,7 +35,7 @@
     border: none;
     color: #fff;
     font-size: 3rem;
-    max-width: 450px;
+    max-width: 335px;
     text-align: center;
 }
 
@@ -52,10 +56,10 @@
 }
 
 .result-display {
-    height: 60%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem;
     text-align: center;
     color: #fff;
@@ -63,6 +67,10 @@
 }
 
 .converion-result p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
+}
+
+.converion-result span {
+    font-size: 1.6rem;
 }
